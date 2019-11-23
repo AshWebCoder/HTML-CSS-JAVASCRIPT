@@ -1,0 +1,60 @@
+body{
+    background:#eee;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.container{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+    align-content: center;
+}
+#container2{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.small-container{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 60px;
+    
+}
+.small-container span{
+    transition: .3s;
+    visibility: hidden;
+}
+.small-container:hover span{
+    margin:7px;
+    visibility: visible;
+
+}
+
+#home:hover {
+    background: rgba(128, 41, 209, 0.568);
+    color:  rgb(128, 41, 209);
+}
+#like:hover {
+    background: rgba(214, 35, 35,0.568);
+    color: rgb(214, 35, 35);
+}
+#search:hover {
+    background: rgba(226, 226, 46,0.568);
+    color: black;
+}
+#profile:hover{
+    background: rgba(57, 57, 241,0.568);
+    color: rgb(57, 57, 241);
+}
